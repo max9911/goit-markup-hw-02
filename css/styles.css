@@ -9,7 +9,7 @@ header {
 }
 main {
 }
-a {
+.link {
   text-decoration: none;
 }
 ol,
@@ -33,6 +33,14 @@ button {
 
 :root {
 }
+
+.link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
 
 .link:hover,
 :focus {
@@ -67,26 +75,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-}
-
-.list {
-}
-
-.header > .link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.header > .link:hover,
-:focus {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #404bbf;
 }
 
 .adr {
@@ -131,7 +119,7 @@ button {
 
 .hero-btn:focus,
 :hover {
-  color: #404bbf;
+  backgrounf-color: #404bbf;
 }
 
 /** sec one**/
@@ -171,6 +159,7 @@ button {
 /** sec tree **/
 
 .three {
+    background-color: #F4F4FD
 }
 
 .three > h2 {
@@ -183,7 +172,7 @@ button {
   color: #2e2f42;
 }
 
-.sec-three-item > h3 {
+.sec3-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2px;
@@ -192,6 +181,7 @@ button {
   color: #2e2f42;
 }
 .sec-three-item {
+    background-color: #FFFFFF
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
