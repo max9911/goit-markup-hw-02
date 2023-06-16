@@ -1,5 +1,9 @@
 /** common styles**/
 
+:root {
+  activelinkcol:#F4F4FD;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -29,8 +33,7 @@ button {
   text-decoration: none;
 }
 
-:root {
-}
+
 
 .link {
   text-decoration: none;
@@ -180,13 +183,18 @@ button {
 .secthree-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .sec-three-item {
   background-color: #ffffff;
+}
+.secthree-par {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
 }
 
 .sec-three-img {
@@ -227,6 +235,17 @@ button {
 /** portfolio **/
 
 /** srolls **/
+
+.scroll-btn-first {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: var(activelinkcol);
+}
 
 .scroll-btn {
   font-family: "Roboto", sans-serif;
