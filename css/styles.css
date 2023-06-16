@@ -1,7 +1,7 @@
 /** common styles**/
 
 :root {
-  activelinkcol:#F4F4FD;
+  --activelinkcol:#F4F4FD ;
 }
 
 body {
@@ -194,7 +194,7 @@ button {
 .secthree-par {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em
 }
 
 .sec-three-img {
@@ -236,17 +236,6 @@ button {
 
 /** srolls **/
 
-.scroll-btn-first {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: var(activelinkcol);
-}
-
 .scroll-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -255,7 +244,10 @@ button {
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  background-color: var(--activelinkcol);
 }
+
+
 
 .scroll-btn:hover,
 :focus {
