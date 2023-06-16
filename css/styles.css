@@ -41,8 +41,10 @@ button {
   color: #2e2f42;
 }
 
-.link:hover,
-:focus {
+.link:hover {
+  color: #404bbf;
+}
+.link:focus {
   color: #404bbf;
 }
 
@@ -76,6 +78,9 @@ button {
   color: #2e2f42;
 }
 
+.list > .link {
+}
+
 .adr {
 }
 
@@ -107,7 +112,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  align-items: center;
+
   color: #ffffff;
   background: #4d5ae5;
 
@@ -162,7 +167,7 @@ button {
   background-color: #f4f4fd;
 }
 
-.three > h2 {
+.secthree-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -172,7 +177,7 @@ button {
   color: #2e2f42;
 }
 
-.sec3-name {
+.secthree-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2px;
@@ -182,12 +187,6 @@ button {
 }
 .sec-three-item {
   background-color: #ffffff;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .sec-three-img {
